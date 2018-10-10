@@ -15,8 +15,9 @@ namespace StudentExercises
        }
 
         // this naming is because we are naming our own type. IT IS A SINGLE INSTANCE that will hold many strings
-       public Cohort Cohort {get; set;}
-       public List<Exercise> Exercise = new List<Exercise>();
+        public Cohort Cohort {get; set;}
+
+        public List<Exercise> Exercises = new List<Exercise>();
    }
 
 }
